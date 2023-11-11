@@ -1,1 +1,1 @@
-# IXD
+# IXD - primul proiect gestionat cu GITclear!
