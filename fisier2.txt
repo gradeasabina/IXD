@@ -1,0 +1,20 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+ifstream fin("sum.in");
+ofstream fout("sum.out");
+
+int main()
+{
+    int a , b, s;
+    fin >> a >> b;
+    fin.close();
+    s = a + b;
+
+    fout << s;
+    fout.close();
+
+    return 0;
+}
